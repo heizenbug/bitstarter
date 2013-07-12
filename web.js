@@ -1,7 +1,7 @@
 var express = require('express');
 var fs = require('fs');
 var buf = new Buffer();
-var in = fs.readFileSync('index.html');
+var in = fs.readFileSync(index.html);
 var out = buf.toString('utf8',0,in);
 var app = express.createServer(express.logger());
 
